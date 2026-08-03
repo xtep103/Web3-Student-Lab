@@ -22,8 +22,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # env
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -51,3 +49,16 @@ frontend/tsc_errors.log
 frontend/tsc_errors_new.log
 frontend/tsc_errors_new2.log
 contracts/test_output_activity.txt
+contracts/test_output*.txt
+contracts/check_output*.json
+contracts/check_errors.txt
+contracts/errors*.json
+
+# test snapshots
+**/__snapshots__/
+*.snap
+
+# editor/OS junk
+.idea/
+*.swp
+config.bat

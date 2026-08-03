@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "config/976-backend-gitignore",
+    "feat/health-liveness-readiness",
+    "fix/881-cargo-dependency-registry",
+    "main",
+    "origin",
+    "pr-1003",
+    "pr-1015-from-main",
+    "pr-1031"
+  ],
+  "parent": {
+    "config/976-backend-gitignore": "main",
+    "feat/health-liveness-readiness": "main",
+    "fix/881-cargo-dependency-registry": "main",
+    "main": null,
+    "origin": "main",
+    "pr-1003": "main",
+    "pr-1015-from-main": "main",
+    "pr-1031": "main"
+  },
+  "order": [
+    "main",
+    "config/976-backend-gitignore",
+    "feat/health-liveness-readiness",
+    "fix/881-cargo-dependency-registry",
+    "origin",
+    "pr-1003",
+    "pr-1015-from-main",
+    "pr-1031"
+  ]
+}
