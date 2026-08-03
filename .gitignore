@@ -22,8 +22,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # env
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -61,6 +59,6 @@ contracts/errors*.json
 *.snap
 
 # editor/OS junk
-.vscode/
 .idea/
 *.swp
+config.bat
