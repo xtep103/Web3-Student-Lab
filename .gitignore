@@ -95,8 +95,6 @@ build.log
 # ──────────────────────────────────────────────────────────────────────────────
 # Environment / secrets
 # ──────────────────────────────────────────────────────────────────────────────
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -175,3 +173,4 @@ contracts/errors*.json
 contracts/test_output*.txt
 contracts/check_errors.txt
 
+config.bat
